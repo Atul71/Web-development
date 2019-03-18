@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#D7DBDD; 
+}
+#image{
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+    display: block;
+}
+#title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
