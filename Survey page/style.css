@@ -1,0 +1,36 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: 
+}
+#main{
+    margin-left: 400px
+}
+h1{
+    text-shadow: 5px 5px rgb(116, 113, 113);
+    font-size: 50px;
+    text-align: center;
+}
+#option{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+}
+#description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+#top{
+    background-color: antiquewhite;
+}
+#img{
+    background-image: url(http://hd.wallpaperswide.com/thumbs/white_wooden_slats-t2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#survey-form{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#submit{
+    width: 10em;  height: 2.5em;
+}
