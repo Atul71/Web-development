@@ -1,0 +1,48 @@
+
+<html>
+    <head>
+        <title>Submission Form</title>
+        <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="form">
+            
+            <form action="http://httpbin.org/post" method="post" onSubmit="myFunction()">
+               <span class="contact-form-title">Contact Form</span>
+               <hr>
+               <br>
+               <ul>
+                <label><span class="contact-form-label"><b>Name*</b></span></label>
+                    <input class="contact-form-input" type="text" name="name" placeholder="Enter Your Name" required>
+                </ul>
+                <ul>
+                <label><span class="contact-form-label"><b>E-mail*</b></span></label>
+                   <input class="contact-form-input" type="email" name="email" placeholder="Enter Your E-mail" required>
+                </ul>
+                <ul>
+                <label><span class="contact-form-label"><b>Phone Number* (+91)</b></span></label>
+                   <input class="contact-form-input" type="tel" name="phone-number" placeholder="Format: 888-888-8888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </ul>
+                <ul>
+                <label><span class="contact-form-label"><b>Class*</b></span></label>
+                    <input class="contact-form-input" type="text" name="Class" placeholder="Enter Your Class" required>
+                </ul>
+                <br>
+                <ul>
+                <button type="submit" class="submit-info">
+                    <span>  
+                         SUBMIT
+                    </span>
+                </button>                                
+            </form>
+            
+        </div>
+        <script>
+            function myFunction() {
+                alert("Contact info has been saved. Thank you");
+            }
+        </script>
+
+    </body>
+</html>

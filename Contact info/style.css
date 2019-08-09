@@ -1,0 +1,94 @@
+body{
+    background: cover;
+    background-repeat:no-repeat;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom right, #e1eec3 25%, #ff5e62 64%);
+}
+hr{
+    border: 2px solid red;    
+}
+button{
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+.form{
+    display: block;
+    margin-top: 5%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background: linear-gradient(to bottom left, #e1eec3 20%, #f05053 84%);
+    padding: 42px 55px 42px 55px;
+    border-radius: 15px;
+}
+.contact-form-title{
+    display: block;
+    text-align: center;
+    font-size: 39px;
+    color: #333333;
+}
+.contact-form-label{
+    display: block;
+    font-size:20px;
+    color: black;
+    text-align: left;
+}
+.contact-form-input{
+    display: inline-block;
+    text-align: left;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;  
+    background-color: white;
+    color: black;
+    
+}
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(to bottom left, #e1eec3 30%, #ff5e62 74%);
+    
+}
+.submit-info{
+    background: linear-gradient(to bottom right, #e1eec3 20%, #ff5e62 64%);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Arial;
+}
+@media screen and (max-width: 700px) {
+    .contact-form-input{
+        padding: 5px 3px;
+        
+    }
+    
+    .form{
+        margin-top: 25%;
+        height: auto;
+        display: block;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form-input{
+        padding: 5px 3px;
+        
+    }
+    
+    .form{
+        margin-top: 20px;
+        height: auto;
+        display: block;
+        width: auto;
+    }
+}
+::placeholder {
+  color: black;
+font-family: Arial;
+}
